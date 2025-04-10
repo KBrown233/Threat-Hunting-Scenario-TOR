@@ -40,7 +40,8 @@ DeviceFileEvents
 | project Timestamp, DeviceName, ActionType, FileName, FolderPath, SHA256, Account= InitiatingProcessAccountName
 
 ```
-![image](https://github.com/user-attachments/assets/3f6f74c5-a398-4452-847f-64b0210efe8f)
+![image](https://github.com/user-attachments/assets/07a3c50b-45a9-450d-b287-46a122bdfb17)
+
 
 
 ---
@@ -59,7 +60,8 @@ DeviceProcessEvents
 | project Timestamp, DeviceName, AccountName, ActionType, FileName, FolderPath, SHA256, ProcessCommandLine
 
 ```
-<img width="1212" alt="image" src="https://github.com/user-attachments/assets/b07ac4b4-9cb3-4834-8fac-9f5f29709d78">
+<![image](https://github.com/user-attachments/assets/e2d330dc-2c00-44bc-a001-83d7343d7ea7)
+>
 
 ---
 
@@ -76,7 +78,8 @@ Searched the DeviceProcessEvents table for any indication that user “kbuser”
 | project Timestamp, DeviceName, ActionType, FileName, FolderPath, SHA256
 
 ```
-<img width="1212" alt="image" src="https://github.com/user-attachments/assets/b13707ae-8c2d-4081-a381-2b521d3a0d8f">
+<![image](https://github.com/user-attachments/assets/17b4e573-163b-488e-bd61-170f9c9c9f95)
+>
 
 ---
 
@@ -94,7 +97,8 @@ DeviceNetworkEvents
 | project Timestamp, DeviceName, InitiatingProcessAccountName, ActionType, RemoteIP, RemotePort, RemoteUrl, InitiatingProcessFileName
 
 ```
-<img width="1212" alt="image" src="https://github.com/user-attachments/assets/87a02b5b-7d12-4f53-9255-f5e750d0e3cb">
+<![image](https://github.com/user-attachments/assets/6a6be7be-1d85-409b-94cb-0c75b9e2927b)
+>
 
 ---
 
