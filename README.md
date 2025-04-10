@@ -107,50 +107,60 @@ DeviceNetworkEvents
 ### 1. File Download - TOR Installer
 
 April 6, 2025 - 5:25:05 PM (UTC)
-Event: File Download and Activity
-Action: The user "kbuser" on a Windows computer "windows-mde-kb" downloaded a Tor installer.
 
+Event: File Download and Activity
+
+Action: The user "kbuser" on a Windows computer "windows-mde-kb" downloaded a Tor installer.
 
 Details: A search in the DeviceFileEvents table for any files related to "tor" revealed that several Tor-related files were copied to the desktop. Additionally, a file named "tor-shopping-list.txt" was created on the desktop.
 
 ### 2. Process Execution - TOR Browser Installation
 
 April 6, 2025 - 10:26:00 AM (UTC)
-Event: Tor Browser Installation
-Action: "kbuser" launched the "tor-browser-windows-x86_64-portable-14.0.9.exe" file located in the Downloads folder.
 
+Event: Tor Browser Installation
+
+Action: "kbuser" launched the "tor-browser-windows-x86_64-portable-14.0.9.exe" file located in the Downloads folder.
 
 Details: The file was executed with the "/S" command, indicating it was installed silently without user interaction or display of installation progress.
 
 ### 3. Process Execution - TOR Browser Launch
 
 April 6, 2025 - 5:27:06 PM (UTC)
-Event: Tor Browser Launch
-Action: "kbuser" launched the Tor browser.
 
+Event: Tor Browser Launch
+
+Action: "kbuser" launched the Tor browser.
 
 Details: Evidence from the DeviceFileEvents table indicated that firefox.exe (a Tor-related process) was triggered, followed by the spawning of tor.exe processes. This suggests that the user had successfully launched the Tor browser after its installation.
 
 ### 4. Network Connection - TOR Network
 
 April 6, 2025 - 5:27:47 PM (UTC)
-Event: Tor Network Connection Established
-Action: "kbuser" established a successful connection to the Tor network.
 
+Event: Tor Network Connection Established
+
+Action: "kbuser" established a successful connection to the Tor network.
 
 Details: The firefox.exe process initiated a connection to the local IP address (127.0.0.1) on port 9150, which is commonly used by the Tor network for communication. This suggests that the Tor browser was functioning correctly and that the user was attempting to connect through the Tor network.
 
 
 Connection Details:
+
 Initiating Process: firefox.exe.
+
 Remote IP: 127.0.0.1 (Localhost).
+
 Port Used: 9150 (Tor-related port).
 
 ### 5. File Creation - TOR Shopping List
 
 April 6, 2025 - 5:48:48 PM (UTC)
+
 Event: File Creation - Tor Shopping List
+
 Action: File creation detected
+
 Details: The user “kbuser” created a file named tor-shopping-list.txt on the desktop, potentially indicating a list or notes related to their Tor browser activities. 
 File Path: C:\Users\Kbuser\Desktop\tor-shopping-list.txt
 
